@@ -1,0 +1,10 @@
+.list{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.shop{ 
+    flex: 0 20%;
+    border-style: double;
+}
