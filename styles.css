@@ -1,10 +1,44 @@
+body{
+    background-color: rgb(255,235,205);
+}
+
 .list{ 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 
 }
 .shop{ 
     flex: 0 20%;
     border-style: double;
+    border: 1px dotted crimson;
+    padding: 2px;
+    margin: 0.5em;
+    background-color: rgb(147,120,101);
+    color: rgb(255,235,205);
+
+}
+
+.pageheader{
+ text-align: center;
+}
+
+.shop h2 {
+    vertical-align: top;
+    text-align: left;
+    
+}
+
+.a {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
 }
